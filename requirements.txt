@@ -1,0 +1,5 @@
+transformers
+python-dotenv
+requests
+torch
+Image
