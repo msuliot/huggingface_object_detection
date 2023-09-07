@@ -16,6 +16,7 @@ def hf_pipeline(image_path):
 
 
 def prettier(results):
+    print("\nResults:\n")
     for item in results:
         score = round(item['score'], 3)
         label = item['label']
