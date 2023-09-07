@@ -25,7 +25,7 @@ def hf_local(url):
     outputs = model(**inputs)
     target_sizes = torch.tensor([image.size[::-1]])
     results = processor.post_process_object_detection(outputs, target_sizes=target_sizes, threshold=0.9)[0]
-
+    print("\nResults:\n")
     for score, label, box in zip(results["scores"], results["labels"], results["boxes"]):
         box = [round(i, 2) for i in box.tolist()]
         print(
