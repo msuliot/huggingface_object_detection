@@ -2,6 +2,9 @@
 
 This is a simple example of how to use the Hugging Face Hub for object detection.
 
+## YouTube Video Tutorial for this GitHub Repository
+[Hugging Face - Object Detection](https://youtu.be/8yVzld1if68)
+
 ## The basics
 
 1. Must have Python3.
