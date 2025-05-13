@@ -4,3 +4,4 @@ requests
 torch
 Image
 timm
+django>=4.2.21 # not directly required, pinned by Snyk to avoid a vulnerability
